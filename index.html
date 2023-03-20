@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <meta name="App para tener tu lista de tareas" content="con esta app podras tener tus apuntes a mano y cualquier momento sin registrarte">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="perfil">
+            <div id="fecha"></div>
+            <h1><span class="hola"></span></h1>
+            <div class="title">Vamos a cumplir tus metas</div>
+        </div>
+        <div class="agregar-tarea">
+            <input type="text" id="input" placeholder="Agregar Tarea">
+            <i id="boton-enter" class='bx bxs-folder-plus'></i>
+        </div>
+        <div class="seccion-tarea">
+            <h3>Estas son tus tareas pendientes</h3>
+            <ul id="lista">
+                <!-- <li>
+                    <i class='bx bxs-check-circle'  data="realizado" id="0"></i>
+                    <p class="text">hacer la tarea </p>
+                    <i class='bx bxs-trash-alt' data="eliminado" id="0" ></i>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <footer id="myFooter">
+        <p>DEV CODE Todos los Derechos reservados &copy; 2023</p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
